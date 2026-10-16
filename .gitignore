@@ -1,0 +1,31 @@
+# Game data: copyrighted, never commit. Point the tools at your own copy.
+/Tetris The Grand Master 3  (PC)/
+*.exe
+*.dll
+game*/
+TGM3/
+
+# Build output (includes the ~400k lines of generated C in recomp/build/gen)
+build/
+*.o
+*.a
+*.so
+
+# Python
+__pycache__/
+*.pyc
+
+# Run output: snapshots, memory/audio dumps, logs
+tgm3-frame*.bmp
+tgm3-mem*.bin
+*.wav
+*.log
+*-run/
+
+# Editor / OS
+*.bak
+*.swp
+*~
+.vscode/
+.idea/
+.DS_Store
